@@ -17,32 +17,32 @@
   border-radius: 20px;
 }
 
-.one {
+.die1 {
   background-image: url("./images/one.png");
   color: rgba(0, 0, 0, 0);
 }
 
-.two {
+.die2 {
   background-image: url("./images/two.png");
   color: rgba(0, 0, 0, 0);
 }
 
-.three {
+.die3 {
   background-image: url("./images/three.png");
   color: rgba(0, 0, 0, 0);
 }
 
-.four {
+.die4 {
   background-image: url("./images/four.png");
   color: rgba(0, 0, 0, 0);
 }
 
-.five {
+.die5 {
   background-image: url("./images/five.png");
   color: rgba(0, 0, 0, 0);
 }
 
-.six {
+.die6 {
   background-image: url("./images/six.png");
   color: rgba(0, 0, 0, 0);
 }

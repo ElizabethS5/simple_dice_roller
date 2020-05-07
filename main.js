@@ -3,7 +3,6 @@ const numberOfDiceInput = document.querySelector("#number-of-dice");
 const diceContainer = document.querySelector("#dice-container");
 const resetButton = document.querySelector("#reset-button");
 const numberOfSidesInput = document.querySelector("#number-of-sides");
-const numberClasses = [null, "one", "two", "three", "four", "five", "six"];
 let rollValues = [];
 
 rollButton.addEventListener("click", function () {
@@ -13,7 +12,7 @@ rollButton.addEventListener("click", function () {
     i++;
     let rollValue = Math.ceil(Math.random() * numberOfSidesInput.value);
     rollValues.push(rollValue);
-    diceContainer.innerHTML += `<div class='die ${numberClasses[rollValue]}'>${rollValue}</div>`;
+    diceContainer.innerHTML += `<div class='die die${rollValue}'>${rollValue}</div>`;
   }
   //   i = 0;
   //   while (i < rollValues.length) {
