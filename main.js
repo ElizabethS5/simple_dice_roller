@@ -13,7 +13,7 @@ rollButton.addEventListener("click", function () {
   let i = 0;
   while (i < numberOfDice) {
     i++;
-    let rollValue = Math.ceil(Math.random() * numberOfSidesInput.value);
+    let rollValue = Math.floor(Math.random() * numberOfSidesInput.value) + 1;
     rollValues.push(rollValue);
     diceContainer.innerHTML += `<div class='die die${rollValue}'>${rollValue}</div>`;
   }
