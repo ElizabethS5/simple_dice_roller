@@ -6,6 +6,9 @@ const numberOfSidesInput = document.querySelector("#number-of-sides");
 let rollValues = [];
 
 rollButton.addEventListener("click", function () {
+  if (numberOfSidesInput.value < 2) {
+    numberOfSidesInput.value = 2;
+  }
   let numberOfDice = numberOfDiceInput.value;
   let i = 0;
   while (i < numberOfDice) {
